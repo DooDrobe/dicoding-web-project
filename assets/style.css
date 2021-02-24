@@ -63,6 +63,7 @@ nav ul{
 }
 .lisSlider li:hover{
     box-shadow: -1px -1px 19px 2px  #173f5f;
+    cursor: pointer;
 }
 
 nav h1{
@@ -86,6 +87,7 @@ nav h1 a{
 }
 nav a:hover{
     font-weight: bolder;
+    cursor: pointer;
 }
 nav li{
     display: inline;
@@ -99,15 +101,15 @@ nav li{
     margin-top: 20px;
 }
 .hotelcard{
-    
-    width: 450px;
+    background-color: white;
+    width: auto;
     box-shadow: 2px 3px 5px -1px rgba(0,0,0,0.75);
     border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
 }
 .destcard{
-    width: 600px;
+    width: auto;
     box-shadow: 2px 3px 5px -1px rgba(0,0,0,0.75);
     background-color: white;
     border-radius: 10px;
@@ -149,7 +151,7 @@ nav li{
 }
 .flex-row-dest{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 .dest {
     flex-basis: 20%;
@@ -177,4 +179,20 @@ nav li{
     font-weight: bold;
 
 }
+
+@media screen and (max-width: 992px) {
+    #destination aside {
+        width: 100%;
+        padding: 0;
+        overflow: scroll;
+    }
+    .flex-row-hotel{
+        display: flexbox;
+        flex-direction: column;
+    }
+    .flex-row-dest{
+        display: flexbox;
+        flex-direction: column;
+    }
+   }
 
