@@ -24,6 +24,12 @@ body{
     font-family: 'Quicksand',sans-serif;
 
 }
+.head-up{
+    display:flex; 
+    font-size: x-large;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 main{
     padding: 20px;
     overflow: auto;
@@ -51,6 +57,9 @@ nav a{
     font-weight: 400;
     text-decoration: none;
     color: white;
+}
+nav a:hover{
+    font-weight: bold;
 }
 nav li{
     display: inline;
@@ -85,12 +94,13 @@ nav li{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    
     box-shadow: 3px 4px 16px -1px rgba(0,0,0,0.75);
     border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
 }
+
 #destination img{
     width: 100%;
     max-height: 80%;
@@ -107,11 +117,11 @@ nav li{
 .flex-column-hotel{
     overflow: scroll
     flex-direction: column;
-    border: black solid;
+
 }
 .flex-row-hotel{
     display: flex;
-    border: black solid;
+
 }
 .flex-row-dest{
     display: flex;
