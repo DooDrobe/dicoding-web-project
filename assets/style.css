@@ -1,5 +1,11 @@
-#content img{
+#destination img{
     width: 50%;
+    
+    object-fit: cover;
+    object-position: center;
+}
+#hotel img{
+    width: 100px;
     
     object-fit: cover;
     object-position: center;
