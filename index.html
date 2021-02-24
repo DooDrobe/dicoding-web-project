@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>vacation</title>
         <link rel="stylesheet" href="assets/style.css">
     </head>
@@ -15,20 +16,30 @@
                     <li><a href="#profile">Profile</a></li>
                 </ul>
             </nav>
+            <div class="banner">
+                <img src="assets/img/bg.jpg" style="width:100%;">
+                <div class="centered">
+                    <h1 style="font-size: 8vw;">VACATION.ID</h1>
+                    <p style="font-size: 2vw;">YOUR INDONESIAN DESTINATION</p>
+
+                </div>
+
+            </div>
         </header>
         <main>
-            <h1>VACATION</h1>
-            <p>YOUR INDONESIAN DESTINATION</p>
+
+
+
             <!--
             <div class="wrapper">
                 <div class="wave"></div>
             </div>
             -->
 
-            <div id="content">
-                <article id="hotel" class="card">
+            <div id="content" class="card">
+                <article id="hotel" >
                     <div>
-                        <h2>HOTELS</h2>
+                        <h2>Hotels</h2> 
                         <p>Choose your beloved hotel from all over the place</p>
                     </div>
                     <div class="hotelcard">
@@ -54,39 +65,59 @@
                 </article>
                 <article id="destination">
 
-                    <section class="card">
-                        <h2>Top Destination</h2>
-                        <p>Choose the most visited palces in Indonesia</p>
-                        <div class="flex-row-hotel">
-                            <div class="dest destcard">
-                                <h3>BALI</h3>
-                                <img src="assets/img/bali.jpg" alt="kuil bali">
-                                <cite><a href='https://www.freepik.com/photos/travel'><br>Travel photo created by tawatchai07 - www.freepik.com</a></cite>        
-                                <p>Bali, your beaty destination a beauty place packed with islands decorated 
-                                    with its many beauty beach are available for you indonesian and foreigners to explore</p>
-                            </div>
-                            <div class="dest destcard">
-                                <h3>LOMBOK</h3>
-                                <img src="assets/img/lombok.jpg" alt="pantai lombok">
-                                <cite><a href='https://www.freepik.com/photos/water'><br>Water photo created by wirestock - www.freepik.com</a></cite>
-                                <p>Lombok, your beaty destination a beauty place packed with islands decorated 
-                                    with its many beauty beach are available for you indonesian and foreigners to explore</p>
-                            </div>
-                            <div class="dest destcard">
-                                                       <h3>RAJA AMPAT</h3>
-                        <img src="assets/img/rajaampat.jpg" alt="pulau-pulau rajaampat">
-                        <cite><a href='https://www.freepik.com/photos/water'><br>Water photo created by wirestock - www.freepik.com</a></cite>
-                        <p>Raja Ampat, your beaty destination a beauty place packed with islands decorated 
-                            with its many beauty beach are available for you indonesian and foreigners to explore</p>
-                            </div>
+                    <section>
+                        <div class="flex-column-hotel">
+                            <div class="flex-row-dest">
+                                <div class="dest destcard">
+                                    <h3>BALI</h3>
+                                    <img src="assets/img/bali.jpg" alt="kuil bali">
+                                    <cite><a href='https://www.freepik.com/photos/travel'><br>Travel photo created by tawatchai07 - www.freepik.com</a></cite>        
+                                    <p>Bali, your beaty destination a beauty place packed with islands decorated 
+                                        with its many beauty beach are available for you indonesian and foreigners to explore</p>
+                                </div>
+                                <div class="dest destcard">
+                                    <h3>LOMBOK</h3>
+                                    <img src="assets/img/lombok.jpg" alt="pantai lombok">
+                                    <cite><a href='https://www.freepik.com/photos/water'><br>Water photo created by wirestock - www.freepik.com</a></cite>
+                                    <p>Lombok, your beaty destination a beauty place packed with islands decorated 
+                                        with its many beauty beach are available for you indonesian and foreigners to explore</p>
+                                </div>
+                                <div class="dest destcard">
+                                    <h3>RAJA AMPAT</h3>
+                                    <img src="assets/img/rajaampat.jpg" alt="pulau-pulau rajaampat">
+                                    <cite><a href='https://www.freepik.com/photos/water'><br>Water photo created by wirestock - www.freepik.com</a></cite>
+                                    <p>Raja Ampat, your beaty destination a beauty place packed with islands decorated 
+                                     with its many beauty beach are available for you indonesian and foreigners to explore</p>
+                                </div>
+                                <div class="dest-head ">
+                                    <div class="flex-column-hotel ">
+                                    <div class="flex-row-hotel">
+                                        <div class="hote">
+                                            <h2>Top #3<br>Destination</h2>
+                                        </div>
 
-                        </div>                   
+                                    </div>
+                                    <div class="flex-row-hotel" style="width: max-content;">
+                                        <div class="hote">
+                                            <p>Choose the most visited places in Indonesia
+                                                Rest your body here, forget all the problem you had 
+                                                Release your emotion here
+                                            </p>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    
+                                </div>
+                            </div>      
+                        </div>
+                                     
                     </section>
 
                 </article>
             </div>
 
-            <aside class="card">
+            <aside class="profileCard">
                 <article id="profile">
                     <header>
                         <h2>Profil</h2>
@@ -114,8 +145,8 @@
                 </article>
             </aside>
         </main>
-        <footer>
-            <p>Vacation&#169; 2021, Hatta Farhan Hasyim</p>
-        </footer>
     </body>
+    <footer>
+        <p>Vacation&#169; 2021, Hatta Farhan Hasyim</p>
+    </footer>
 </html>
