@@ -1,3 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+ }
+body{
+    font-family: 'Quicksand',sans-serif;
+
+}
+
+nav{
+    background-color: #173f5f;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.card{
+    box-shadow: 3px 4px 16px -1px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.hotelcard{
+    
+    width: 450px;
+    box-shadow: 3px 4px 16px -1px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
 #destination img{
     width: 50%;
     
@@ -10,6 +51,26 @@
     object-fit: cover;
     object-position: center;
 }
+
+.flex-column-hotel{
+    flex-direction: column;
+}
+.flex-row-hotel{
+    display: flex;
+}
+.hote {
+    flex-basis: 10%;
+   
+    /* properti pendukung */
+    padding: 20px;
+    cursor: pointer;
+
+ }
+
+
+
+
+
 
 .wrapper {
   width: 500px;
