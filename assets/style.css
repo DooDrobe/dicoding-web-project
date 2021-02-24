@@ -55,11 +55,17 @@ header{
 nav a{
     font-size: 18px;
     font-weight: 400;
+    font-family: 'Quicksand',sans-serif;
     text-decoration: none;
     color: white;
 }
+nav h1 a{
+    text-decoration: none;
+    font-size: large;
+    font-weight:bold;
+}
 nav a:hover{
-    font-weight: bold;
+    font-weight: bolder;
 }
 nav li{
     display: inline;
@@ -91,8 +97,6 @@ nav li{
 }
 .profileCard{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     
     box-shadow: 3px 4px 16px -1px rgba(0,0,0,0.75);
@@ -146,10 +150,10 @@ nav li{
  }
 
  footer{
-    padding: 10px;
+    padding: 50px;
     color: white;
     background-color: #101d20;
-    text-align: center;
+    text-align: right;
     font-weight: bold;
 
 }
