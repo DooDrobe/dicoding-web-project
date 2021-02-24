@@ -41,10 +41,30 @@ nav{
     position: sticky;
     top: 0;
 }
-ul{
+nav ul{
     display: flex;
     flex-direction: row-reverse;
 }
+
+.lisSlider{
+    position: static;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+
+}
+.lisSlider li{
+    margin-right: 10px;
+}
+.lisSlider li img{
+    width: 20px;
+}
+.lisSlider li:hover{
+    box-shadow: -1px -1px 19px 2px  #173f5f;
+}
+
 nav h1{
     display: flex;
     align-items: center;
@@ -158,36 +178,3 @@ nav li{
 
 }
 
-
-
-
-
-.wrapper {
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 5px;
-  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
-  overflow: hidden;
-}
-
-.wave {
-  width: 1000px;
-  height: 1025px;
-  position: absolute;
-  top: -25%;
-  left: 50%;
-  margin-left: -500px;
-  margin-top: -500px;
-  border-radius: 35%;
-  background: rgba(255, 255, 255, .75);
-  animation: wave 15s infinite linear;
-}
-
-@keyframes wave {
-  from { transform: rotate(0deg);}
-  from { transform: rotate(360deg);}
-}

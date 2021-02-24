@@ -16,15 +16,20 @@
                     <li><a href="#hotel">Hotel</a></li>
                 </ul>
             </nav>
-            <div class="banner">
-                <img src="assets/img/bg.jpg" style="width:100%;">
-                <div class="centered">
-                    <h1 style="font-size: 8vw;">VACATION.ID</h1>
-                    <p style="font-size: 2vw;">YOUR INDONESIAN DESTINATION</p>
-
-                </div>
-
+            <div>
+                <img src="assets/img/bg.jpg" id="slider" style="width:100%;">
+                <ul class="lisSlider">
+                    <li onclick="imgSlider('assets/img/bg.jpg')"><img src="assets/img/thumb5.jpg" style="width: 1.2vw;"></li>
+                    <li onclick="imgSlider('assets/img/bg2.jpg')"><img src="assets/img/thumb5.jpg" style="width: 1.2vw;"></li>
+                    <li onclick="imgSlider('assets/img/bg3.jpg')"><img src="assets/img/thumb5.jpg" style="width: 1.2vw;"></li>
+                </ul>
             </div>
+            <script type="text/javascript">
+                function imgSlider(anything){
+                    document.getElementById("slider").src = anything;
+                }
+            </script>
+            
         </header>
         <main>
 
@@ -166,7 +171,7 @@
             </div>
 
             <aside class="profileCard" >
-                <article id="profile" style="margin-left: 25%;">
+                <article id="profile" style="margin-left: 10%;">
                     <div class="flex-column-hotel">
                         <div class="flex-row-hotel">
                             <div>
